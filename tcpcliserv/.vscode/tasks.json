@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    
+    //tasks should be edit in the Terminal of the toolbox above! 
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build the serve",
+            "type": "shell",
+            "command": "gcc tcpserv02.c -I ../lib -L ../ -l unp -o tcpserv02_exec.out",
+            //"command": "gcc tcpcli04_keepConnect.c -I ../lib -L ../ -l unp -o tcpcli04_keepConnect_exec.out",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

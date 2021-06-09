@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+
+            //这是另一种编译方式，编译多个源文件
+            //"command": "gcc web.c start_connect.c write_get_cmd.c home_page.c -I ../lib -L ../ -l unp -o web_exec.out",
+            "command": "gcc tcpcli01.c strclifork.c -I ../lib -L ../ -l unp -o tcpcli01_exec.out",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

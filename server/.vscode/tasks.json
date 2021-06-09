@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            
+            //"command": "gcc mytest1.c -I ../lib -L ../ -l unp -o mytest1_exec.out",
+            //"command": "gcc client.c -I ../lib -L ../ -l unp -o client_exec.out",
+
+            //多进程版本
+            //"command": "gcc serv01.c sig_chld_waitpid.c web_child.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv01_exec.out",
+            //"command": "gcc serv02.c child02.c sig_chld_waitpid.c web_child.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv02_exec.out",
+            //"command": "gcc serv02m.c child02m.c sig_chld_waitpid.c web_child.c pr_cpu_time.c meter.c -I ../lib -L ../ -l unp -o serv02m_exec.out",
+            //"command": "gcc serv04.c child04.c sig_chld_waitpid.c web_child.c pr_cpu_time.c lock_pthread.c -I ../lib -L ../ -l unp -o serv04_exec.out -l pthread",
+            //"command": "gcc serv05.c child05.c sig_chld_waitpid.c web_child.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv05_exec.out",
+            
+            //多线程版本
+            //"command": "gcc serv06.c sig_chld_waitpid.c web_child_r.c readline_r.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv06_exec.out -l pthread",
+            //"command": "gcc serv07.c pthread07.c sig_chld_waitpid.c web_child_r.c readline_r.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv07_exec.out -l pthread",
+            //"command": "gcc serv08.c pthread08.c sig_chld_waitpid.c web_child_r.c readline_r.c pr_cpu_time.c -I ../lib -L ../ -l unp -o serv08_exec.out -l pthread",
+            
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
