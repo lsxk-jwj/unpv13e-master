@@ -8,8 +8,7 @@
         {
             "label": "build the serve",
             "type": "shell",
-            "command": "gcc tcpserv02.c -I ../lib -L ../ -l unp -o tcpserv02_exec.out",
-            //"command": "gcc tcpcli04_keepConnect.c -I ../lib -L ../ -l unp -o tcpcli04_keepConnect_exec.out",
+            "command": "gcc tcpcli04.c -I ../lib -L ../ -l unp -o tcpcli04_exec.out",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
