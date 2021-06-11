@@ -1,16 +1,5 @@
 #include	"unp.h"
 
-void
-sig_chld(int signo)
-{
-	pid_t	pid;
-	int		stat;
-
-	pid = wait(&stat);
-	printf("child %d terminated\n", pid);
-	return;
-}
-
 int
 main(int argc, char **argv)
 {
@@ -18,7 +7,7 @@ main(int argc, char **argv)
 	pid_t				childpid;
 	socklen_t			clilen;
 	struct sockaddr_in	cliaddr, servaddr;
-	//void				sig_chld(int);//这个声明必须要加上！
+	void				sig_chld(int);//这个声明必须要加上！
 	int	cnt1 = 0;
 	int cnt2 = 0;
 

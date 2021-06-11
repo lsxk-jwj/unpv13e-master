@@ -20,6 +20,7 @@ main(int argc, char **argv)
 
 	Listen(listenfd, LISTENQ);
 
+	//一旦安装了这个信号处理函数，它便一直被安装着，即主要此进程还在运行，无论何时有sigchld信号出现，都会有此函数进行处理。
 	Signal(SIGCHLD, sig_chld);	/* must call waitpid() */
 
 	for ( ; ; ) {

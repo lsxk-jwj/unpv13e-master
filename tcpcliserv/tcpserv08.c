@@ -24,6 +24,7 @@ main(int argc, char **argv)
 
 	for ( ; ; ) {
 		clilen = sizeof(cliaddr);
+		//为了防止accept系统调用被信号处理函数中断后返回EINTR的error，即使linux系统并不会出现这个现象！
 		if ( (connfd = accept(listenfd, (SA *) &cliaddr, &clilen)) < 0) {
 			if (errno == EINTR)
 				continue;		/* back to for() */
