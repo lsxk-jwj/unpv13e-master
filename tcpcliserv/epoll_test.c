@@ -8,7 +8,7 @@
 #include <sys/epoll.h>
 #include <string.h>
  
-#define MAXEVENTS 64
+#define MAXEVENTS 100000
  
 //函数:
 //功能:创建和绑定一个TCP socket
@@ -19,7 +19,7 @@ create_and_bind (char *port)
 {
   struct addrinfo hints;
   struct addrinfo *result, *rp;
-  int s, sfd;
+  int s, s1, sfd;
  
   memset (&hints, 0, sizeof (struct addrinfo));
   hints.ai_family = AF_UNSPEC;     /* Return IPv4 and IPv6 choices */
@@ -38,7 +38,7 @@ create_and_bind (char *port)
       sfd = socket (rp->ai_family, rp->ai_socktype, rp->ai_protocol);
       if (sfd == -1)
         continue;
- 
+        
       s = bind (sfd, rp->ai_addr, rp->ai_addrlen);
       if (s == 0)
         {
@@ -138,7 +138,7 @@ main (int argc, char *argv[])
   /* Buffer where events are returned */
   events = calloc (MAXEVENTS, sizeof event);//分配并初始化一个大小为MAXEVENTS的数组，数组类型是epoll_event，这一步是必须的！
  
-  /* The event loop */
+  /* The event loop: 常用的架构 */
   while (1)
     {
       int n, i;
@@ -225,9 +225,9 @@ main (int argc, char *argv[])
                  completely, as we are running in edge-triggered mode
                  and won't get a notification again for the same
                  data. 
-                 工作在边沿触发模式，必须要一次性读完缓冲区的所有数据！*/
+                 工作在边沿触发模式，必须要一次性读完缓冲区的所有数据，否则epoll_wait将不会由于第一次进程没有读完而返回第二次！*/
               int done = 0;
- 
+              //必须有着while(1)，当read完成时才跳出这个死循环！
               while (1)
                 {
                   ssize_t count;
@@ -252,16 +252,21 @@ main (int argc, char *argv[])
                       done = 1;
                       break;
                     }
- 
+
                   /* Write the buffer to standard output */
                   s = write (1, buf, count);
-                  if (s == -1)
-                    {
+                  if (s == -1){
+                      perror ("write");
+                      abort ();
+                    }
+                  //写回该客户，如同echo回射服务一样！  
+                  s = write(events[i].data.fd, buf, count);
+                  if (s == -1){
                       perror ("write");
                       abort ();
                     }
                 }
- 
+
               if (done)
                 {
                   printf ("Closed connection on descriptor %d\n",
@@ -269,7 +274,7 @@ main (int argc, char *argv[])
  
                   /* Closing the descriptor will make epoll remove it
                      from the set of descriptors which are monitored. */
-                  close (events[i].data.fd);
+                  close (events[i].data.fd);//是直接调用close吗？？？
                 }
             }
         }

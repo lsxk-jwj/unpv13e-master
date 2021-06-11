@@ -10,3 +10,1073 @@
 在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
 或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
 其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！
+1 这里的函数很多都是C语言的库函数，大写的变量都是头文件里定义的宏变量！
+
+2 GCC常用编译2命令：
+ gcc source_file.c -L/path/to/lib -lxxx -I/path/to/include
+-l, 指定所使用到的函数库，本例中链接器会尝试链接名为libxxx.a的函数库。
+-L，指定函数库所在的文件夹，本例中链接器会尝试搜索/path/to/lib文件夹。
+-I, 指定头文件所在的文件夹，本例中预编译器会尝试搜索/path/to/include文件夹。
+
+ 如对书上图1-9的源代码进行编译：
+在此目录下~/Desktop/unix_programming/unpv13e-master/intro$，执行   gcc daytimetcpcli.c -I ../lib -L ../ -l unp -o daytimetcpcli_exec
+或者在上级目录中执行gcc intro/daytimetcpsrv.c -I ./lib -L ./ -l unp -o aaa
+其中：-l的参数unp只是个静态库libunp.a的名字,不需要加上这个库的路径！它会自己在-L 后面指定的./的路径下寻找！

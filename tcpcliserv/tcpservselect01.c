@@ -5,9 +5,9 @@ int
 main(int argc, char **argv)
 {
 	int					i, maxi, maxfd, listenfd, connfd, sockfd;
-	int					nready, client[FD_SETSIZE];
+	int					nready, client[FD_SETSIZE];//select最多支持1024个描述符，这个限制很严重！
 	ssize_t				n;
-	fd_set				rset, allset;
+	fd_set				rset, allset;//两个变量相互协调的进行更新！
 	char				buf[MAXLINE];
 	socklen_t			clilen;
 	struct sockaddr_in	cliaddr, servaddr;
@@ -34,6 +34,7 @@ main(int argc, char **argv)
 /* include fig02 */
 	for ( ; ; ) {
 		rset = allset;		/* structure assignment */
+		//每一次调用select时都要将所有描述符传递给内核，也就是经历从用户态到内核态的拷贝，
 		nready = Select(maxfd+1, &rset, NULL, NULL, NULL);
 
 		if (FD_ISSET(listenfd, &rset)) {	/* new client connection */

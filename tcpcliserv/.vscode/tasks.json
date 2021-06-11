@@ -8,7 +8,9 @@
         {
             "label": "build the server",
             "type": "shell",
-            "command": "gcc tcpserv02.c sigchldwait.c -I ../lib -L ../ -l unp -o tcpserv02_exec.out",
+            "command": "gcc tcpcli04.c -I ../lib -L ../ -l unp -o tcpcli04_exec.out",
+            //"command": "gcc tcpserv04.c sigchldwaitpid.c -I ../lib -L ../ -l unp -o tcpserv04_exec.out",
+            //"command": "gcc epoll_test.c -o epoll_test_exec.out",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

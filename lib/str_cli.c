@@ -1,5 +1,6 @@
 #include	"unp.h"
 
+//这个str_echo函数存在着批量输入的问题！
 void
 str_cli(FILE *fp, int sockfd)
 {

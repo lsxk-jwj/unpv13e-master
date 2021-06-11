@@ -5,6 +5,7 @@ main(int argc, char **argv)
 {
 	int					i, sockfd[5];
 	struct sockaddr_in	servaddr;
+	FILE *filefp;
 
 	if (argc != 2)
 		err_quit("usage: tcpcli <IPaddress>");
@@ -21,8 +22,8 @@ main(int argc, char **argv)
 
 		Connect(sockfd[i], (SA *) &servaddr, sizeof(servaddr));
 	}
-
-	str_cli(stdin, sockfd[0]);		/* do it all */
+	filefp = fopen("./test.txt", "rb");
+	str_cli(filefp, sockfd[0]);		/* do it all */
 
 	exit(0);
 }
